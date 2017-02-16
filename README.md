@@ -29,6 +29,10 @@ Keith :^)
 
 ![Ritchie Affordable Colocation](http://www.ritchiestockexchange.org/img/colocateRitchie2.jpg)
 
+![Ritchie Random Matching Algorithm](http://www.ritchiestockexchange.org/img/matching.png)
+
+http://www.ritchiestockexchange.org/img/matching.png
+
 Reference:
 2. https://opensource.com/open-source-way
 
