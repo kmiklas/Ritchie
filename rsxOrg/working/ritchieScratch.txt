@@ -1,0 +1,11 @@
+<h2>Welcome to Ritchie!</h2>
+<p>Here you will find all the docs that you need to effectively use Ritchie, including:</p>
+<ul>
+  <li>Getting started</li>
+  <li>Connecting</li>
+  <li>Sample Algorithms</li>
+  <li>API docs</li>
+  <li>Lots of examples</li>
+</ul>
+<p>Have a look around; click the links at the top and left. It's pretty intuitive.</p>
+
