@@ -8,7 +8,7 @@ In the spirit of "The Open Source Way,"[2] we believe that a market--and its dat
 
 - Designed for Algorithmic Trading.
 - No "non-display" fees. Ritchie is designed from the ground up for non-display.
-- Affordable colocation fees. Colocation is affordable at Ritchie. Your algos can be run on a device as small as a Raspberry PiTM.
+- Affordable colocation fees. Colocation is affordable at Ritchie. Your algos can be run on a device as small as a Raspberry Pi(TM).
 - Random matching algorithm. Not a FIFO order queue, an array where orders are matched randomly.
 - Real-time tick data are free. Easily accessed through our API.
 - Open Order Book/DOM.
