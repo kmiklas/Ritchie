@@ -1,6 +1,6 @@
 # Change Log
 4/24/2017
-- Added order priority queue (heap) for holding order info
+- Added order priority queue (modified heap)stub for holding order info at price levels in order book
 - Added order number generater
 
 3/1/2017
