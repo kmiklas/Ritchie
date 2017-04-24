@@ -1,6 +1,10 @@
 # Change Log
+4/24/2017
 - Added order priority queue (heap) for holding order info
 - Added order number generater
+
+3/1/2017
+- Initial commit
 
 # Ritchie
 
