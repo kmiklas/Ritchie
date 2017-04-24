@@ -12,7 +12,7 @@
 // SERVER:           com.ritchie.exchange
 // INSTRUMENT:       GOLD
 // DAYS SINCE EPOCH: 17280
-// NUMBER FOR DAY:   5694372q
+// NUMBER FOR DAY:   5694372
 //
 
 #include <iostream>
