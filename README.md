@@ -1,3 +1,14 @@
+# Contribute
+
+I need help!
+
+1. ENGINE: Creating the order book of priority queues (heaps), bid/ask price ladders, matching engine, and the like
+2. FIX ACCEPTOR/INITIATOR: Creating a FIX connection between a client and the exchange. I've been working with a modified version of Quickfix, but I would really prefer to write our own FIX engine.
+3. SOCKET PROGRAMMING. The model calls for users to remote into their colo equipment and run their algos remotely. This is great, because network latency becomes a non-factor. Yes, connection from your basement fund to the Ritchie colo equipment might be slow, but your algo is on the same LAN as everyone else. Once you modify, update, and run your algo, a C++ socket connection directly to the market acceptor enables you to trade at the same speeds as everyone else.  I haven't timed it, but I'm looking for less than 500mcs market access times. Lots more on this...
+4. SSL/SSH/Firewall. I suppose we need some form of security.
+5. ALGOS. Algos to drive and test the market engine.
+
+
 # Usage
 ## Engine/Acceptor
 The Ritchie engine is designed to run on Linux, but it should run on Windows with a few tweaks if you're a Visual Studio person.
