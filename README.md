@@ -4,6 +4,10 @@
 
 http://www.ritchiestockexchange.com/
 
+
+![Ritchie Logo](https://www.gnu.org/graphics/gplv3-127x51.png)
+
+
 # Contribute
 
 Current needs:
