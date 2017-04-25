@@ -1,3 +1,20 @@
+# Usage
+## Engine/Acceptor
+The Ritchie engine is designed to run on Linux, but it should run on Windows with a few tweaks if you're a Visual Studio person.
+
+At the command prompt:
+pickledEgg> make
+
+To start the process and make your market
+pickledEgg> ./ritchie
+
+## Client/Initiator
+
+Separate clients are available: one for Linux/Mac, a second for Windows.
+
+Portability was just too difficult to maintain with the vast difference between Linux/UNIX/Mac socket implementations and Winsock2.h. Forgive me for throwing in the towel and let the split occur, so that Visual Studio can do its thing with the Windows version of the initiator. Every man has his limit, and reached mine.
+
+
 # Change Log
 4/24/2017
 - Added order priority queue (modified heap) stub for holding order info at price levels in order book
