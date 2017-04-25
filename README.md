@@ -17,7 +17,7 @@ Current needs:
 3. SOCKET PROGRAMMING. The model calls for users to remote into their colo equipment and run their algos remotely. This is great, because network latency becomes a non-factor. Yes, connection from your basement fund to the Ritchie colo equipment might be slow, but your algo is on the same LAN as everyone else. Once you modify, update, and run your algo, a C++ socket connection directly to the market acceptor enables you to trade at the same speeds as everyone else.  I haven't timed it, but I'm looking for less than 500mcs market access times. Lots more on this...
 4. SSL/SSH/Firewall. I suppose we need some form of security.
 5. ALGOS. Algos to drive and test the market engine.
-6. OTHER STUFF.
+6. OTHER STUFF. Web-based data-driven portal to view market info, market data server, compliance logging, etc.
 
 
 # Usage
