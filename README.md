@@ -1,3 +1,11 @@
+# Change Log
+4/24/2017
+- Added order priority queue (modified heap) stub for holding order info at price levels in order book
+- Added order number generater
+
+3/1/2017
+- Initial commit
+
 # Ritchie
 
 Welcome to the Ritchie Stock Exchange™!
@@ -29,9 +37,7 @@ Keith :^)
 
 ![Ritchie Affordable Colocation](http://www.ritchiestockexchange.org/img/colocateRitchie2.jpg)
 
-![Ritchie Random Matching Algorithm](http://www.ritchiestockexchange.org/img/matching.png)
-
 
 Reference:
-2. https://opensource.com/open-source-way
+1. https://opensource.com/open-source-way
 
