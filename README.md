@@ -17,6 +17,12 @@ Register and post at the Ritchie forums:
 
 http://www.ritchiestockexchange.net/
 
+Huge thanks to myBB for this.
+
+![myBB Logo](https://mybb.com/assets/images/logo.png)
+
+https://mybb.com/
+
 # Contribute
 
 Current needs:
