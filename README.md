@@ -1,6 +1,12 @@
+# Ritchie - The Open Source Exchange
+
+![Ritchie Logo](http://www.ritchiestockexchange.com/img/logo.png)
+
+http://www.ritchiestockexchange.com/
+
 # Contribute
 
-I need help!
+Current needs:
 
 1. ENGINE: Creating the order book of priority queues (heaps), bid/ask price ladders, matching engine, and the like
 2. FIX ACCEPTOR/INITIATOR: Creating a FIX connection between a client and the exchange. I've been working with a modified version of Quickfix, but I would really prefer to write our own FIX engine.
