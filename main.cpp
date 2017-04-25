@@ -8,11 +8,9 @@
 // 3. Pushes smart pointers to said orders onto the heap at this price
 // 4. Pops off the heap and prints
 //
-
-const double MARKET_PRICE = 1275.00;
-
 #include <iostream>
 #include <memory>
+#include "globals.h"
 #include "orderNumber.h"
 #include "book.h"
 #include "order.h"

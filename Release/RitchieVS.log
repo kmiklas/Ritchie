@@ -1,3 +1,0 @@
-﻿LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
-  RitchieVS.vcxproj -> C:\Users\pickledEgg\github\RitchieVS\Release\RitchieVS.exe
-  RitchieVS.vcxproj -> C:\Users\pickledEgg\github\RitchieVS\Release\RitchieVS.pdb (Full PDB)

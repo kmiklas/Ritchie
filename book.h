@@ -7,12 +7,11 @@
 //
 // [exchange in reverse-dot notation]-[instrument]-[days since epoch]-[number for day]
 // Example: com.ritchie.exchange-GOLD-17280-5694372
-//
-
-
 #include <iostream>
 #include <queue>
 #include <map>
+#include <memory>
+#include "globals.h"
 #include "order.h"
 #include "orderNumber.h"
 

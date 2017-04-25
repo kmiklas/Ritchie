@@ -11,6 +11,7 @@
 
 #include <iostream>
 #include <string>
+#include "globals.h"
 
 namespace ritchie {
 	class Order {

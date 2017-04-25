@@ -16,6 +16,7 @@
 #include <string>
 #include <ctime>
 #include <chrono>
+#include "globals.h"
 
 namespace ritchie {
 	class OrderNumber {
