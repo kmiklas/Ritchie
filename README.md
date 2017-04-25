@@ -11,6 +11,12 @@ https://www.gnu.org/licenses/gpl-3.0.en.html
 
 https://opensource.com/open-source-way
 
+# Communication
+
+Register and post at the Ritchie forums:
+
+http://www.ritchiestockexchange.net/
+
 # Contribute
 
 Current needs:
