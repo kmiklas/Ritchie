@@ -17,8 +17,7 @@ I know, in a perfect world, this code would be perfectly portable, and we would 
 
 # Change Log
 4/24/2017
-- Added order priority queue (modified heap) stub for holding order info at price levels in order book
-- Added order number generater
+- Engine: Added order priority queue (modified heap) stub for holding order info at price levels in order book. Added order number generator.
 
 3/1/2017
 - Initial commit
