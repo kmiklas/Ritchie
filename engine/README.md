@@ -1,7 +1,35 @@
+# Contribute
+
+I need help!
+
+1. ENGINE: Creating the order book of priority queues (heaps), bid/ask price ladders, matching engine, and the like
+2. FIX ACCEPTOR/INITIATOR: Creating a FIX connection between a client and the exchange. I've been working with a modified version of Quickfix, but I would really prefer to write our own FIX engine.
+3. SOCKET PROGRAMMING. The model calls for users to remote into their colo equipment and run their algos remotely. This is great, because network latency becomes a non-factor. Yes, connection from your basement fund to the Ritchie colo equipment might be slow, but your algo is on the same LAN as everyone else. Once you modify, update, and run your algo, a C++ socket connection directly to the market acceptor enables you to trade at the same speeds as everyone else.  I haven't timed it, but I'm looking for less than 500mcs market access times. Lots more on this...
+4. SSL/SSH/Firewall. I suppose we need some form of security.
+5. ALGOS. Algos to drive and test the market engine.
+6. OTHER STUFF.
+
+
+# Usage
+## Engine/Acceptor
+The Ritchie engine is designed to run on Linux, but it should run on Windows with a few tweaks if you're a Visual Studio person.
+
+At the command prompt:
+pickledEgg> make
+
+To start the process and make your market
+pickledEgg> ./ritchie
+
+## Client/Initiator
+
+Separate clients are available: one for Linux/Mac, a second for Windows. This enables the Windows peeps to work with the code in Visual Studio, generate solution files and all sorts of Microsoft-specific stuff, use winsock2.h, etc., without cluttering the Linux files.
+
+I know, in a perfect world, this code would be perfectly portable, and we would have exactly one code base for all platforms. Please don't judge me.
+
+
 # Change Log
 4/24/2017
-- Added order priority queue (modified heap) stub for holding order info at price levels in order book
-- Added order number generater
+- Engine: Added order priority queue (modified heap) stub for holding order info at price levels in order book. Added order number generator.
 
 3/1/2017
 - Initial commit
