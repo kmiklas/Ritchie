@@ -10,9 +10,9 @@ pickledEgg> ./ritchie
 
 ## Client/Initiator
 
-Separate clients are available: one for Linux/Mac, a second for Windows.
+Separate clients are available: one for Linux/Mac, a second for Windows. This enables the Windows peeps to work with the code in Visual Studio, generate solution files and all sorts of Microsoft-specific stuff, use winsock2.h, etc., without cluttering the Linux files.
 
-Portability was just too difficult to maintain with the vast difference between Linux/UNIX/Mac socket implementations and Winsock2.h. Forgive me for throwing in the towel and let the split occur, so that Visual Studio can do its thing with the Windows version of the initiator. Every man has his limit, and reached mine.
+I know, in a perfect world, this code would be perfectly portable, and we would have exactly one code base for all platforms. Please don't judge me.
 
 
 # Change Log
