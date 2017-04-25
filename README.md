@@ -2,8 +2,6 @@
 
 ![Ritchie Logo](http://www.ritchiestockexchange.com/img/logo.png)
 
-## The Open Source Exchange
-
 http://www.ritchiestockexchange.com/
 
 
