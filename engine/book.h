@@ -5,8 +5,7 @@
 // book.h
 // Creates an order book
 //
-// [exchange in reverse-dot notation]-[instrument]-[days since epoch]-[number for day]
-// Example: com.ritchie.exchange-GOLD-17280-5694372
+
 #include <iostream>
 #include <queue>
 #include <map>

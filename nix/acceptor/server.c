@@ -1,7 +1,7 @@
 /*
 ** server.c -- a stream socket server demo
 ** http://beej.us/guide/bgnet/output/html/multipage/clientserver.html#simpleserver
-*/
+**/
 
 #include <stdio.h>
 #include <stdlib.h>

@@ -53,6 +53,11 @@ I know, in a perfect world, this code would be perfectly portable, and we would 
 
 
 # Change Log
+
+4/25/2017
+- nix: added socket stubs for initiator and acceptor
+- Windows: added VS2015 project with socket stubs for initiator and acceptor
+
 4/24/2017
 - Engine: Added order priority queue (modified heap) stub for holding order info at price levels in order book. Added order number generator.
 
