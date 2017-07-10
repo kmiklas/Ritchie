@@ -2,7 +2,7 @@
 
 ![Ritchie Logo](http://www.ritchiestockexchange.com/img/logo.png)
 
-We at Ritchie believe that, for an exchange to be "fair and orderly," all exchange data must be free and available to all market participants, for display and non-display use. Our definition of "exchange data" includes the following:
+In the spirit of the FSF and OSI, we at Ritchie believe that, for an exchange to be "fair and orderly," all exchange data must be free and available to all market participants, for display and non-display use. Our definition of "exchange data" includes the following:
 
 - Tick data for all financial instruments listed on the exchange
 - Market order queue
