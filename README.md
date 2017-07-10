@@ -15,6 +15,15 @@ We seek the utopian "Level Playing Field," where all market participants have ac
 Lots more at our Web site at the link below:
 http://www.ritchiestockexchange.com/
 
+
+# Licensing
+
+All Ritchie exchange data are published under the MIT License, viewable here:
+https://opensource.org/licenses/MIT
+
+
+The exchange code is published under GPL3:
+
 ![Ritchie Logo](https://www.gnu.org/graphics/gplv3-127x51.png)
 
 https://www.gnu.org/licenses/gpl-3.0.en.html
