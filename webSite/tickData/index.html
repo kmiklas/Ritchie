@@ -1,0 +1,62 @@
+<html>
+<head>
+	<title>Websocket</title>
+	<script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous"></script>
+</head>
+	<body>
+	<h1>Ritchie&trade; Free Tick Data</h1>
+	<ul>
+	<h3>These data are published under the MIT Open-Source License</h3>
+	<p><a href="https://opensource.org/licenses/MIT" target="_blank">https://opensource.org/licenses/MIT</a></p>
+		<li>No subscription fees</li>
+		<li>No non-display fees</li>
+		<li>True prices, not a VWAP or any form of delayed average.</li>
+		<li>Free and open-source API, in the spirit of The Open Source Way</li>
+		<li>Free, in the spirit of the Free Software Foundation</li>
+
+	</ul>
+	<hr>
+	<p id="tickData"></p>
+<!--
+	<button>Listen</button>
+	<p id="screen">placeholder</p>
+-->
+
+</body>
+<script>
+	jQuery(document).ready(function($) {
+	    var content = $('#screen');
+	    var message = "keep chopping";
+//	    var ws = new WebSocket('ws://73.160.82.134:40000');
+	    var ws = new WebSocket('ws://73.150.90.60:40000');
+
+	    ws.onopen = function() {
+	        console.log('Connected');
+	    };
+	    $("button").on('click', function() {
+	    	ws.send(message);
+	    });
+
+	    ws.onmessage = function(msg) {
+//	    	console.log(msg.data + ' ');
+	    	$("#tickData").append(msg.data + ' ');
+//	        console.log('Received message from server: ' + msg.data);
+	    }
+	});
+	</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60743323-4', 'auto');
+  ga('send', 'pageview');
+
+</script>	
+
+</html>

@@ -1,0 +1,29 @@
+/* Ritchie.css */
+
+/*.jumbotron {
+  background-image:url('../img/bridges.jpg');
+  height:200px;
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+.jumbotron {
+    background-size: auto 100%;
+}*/
+
+.jumbotron {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #91847b;
+}
+.jumbotron .container {
+    position: relative;
+}
+.logo {
+    position: absolute;
+    top: 5%;
+    left:5%;
+}
+.license {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 13pt;
+}
