@@ -6,6 +6,7 @@ In the spirit of the FSF and OSI, we at Ritchie believe that, for an exchange to
 
 - Tick data for all financial instruments listed on the exchange
 - Market order queue
+- Volume
 - Order book/depth of market (DOM) queues at all price levels
 - "Ritchie Ring" circular FIFO
 - Matching engine output
